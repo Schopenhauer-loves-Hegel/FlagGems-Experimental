@@ -62,6 +62,7 @@ from .resolve_neg import resolve_neg
 from .scatter_add import scatter_add_
 from .softplus import softplus_backward
 from .sparse_sampled_addmm import sparse_sampled_addmm, sparse_sampled_addmm_out
+from .special_bessel_j0 import run as special_bessel_j0
 from .special_chebyshev_polynomial_w import (
     special_chebyshev_polynomial_w,
     special_chebyshev_polynomial_w_out,
@@ -138,6 +139,7 @@ __all__ = [
     "softplus_backward",
     "sparse_sampled_addmm",
     "sparse_sampled_addmm_out",
+    "special_bessel_j0",
     "special_chebyshev_polynomial_w",
     "special_chebyshev_polynomial_w_out",
     "special_gammainc",
