@@ -22,6 +22,7 @@ from .arange import arange, arange_start
 from .arctan2 import arctan2
 from .argmin import argmin
 from .atan2 import atan2
+from .atan2_ import atan2_
 from .batch_norm import batch_norm, batch_norm_backward
 from .bucketize import bucketize
 from .celu import celu
@@ -122,6 +123,7 @@ __all__ = [
     "arctan2",
     "argmin",
     "atan2",
+    "atan2_",
     "batch_norm",
     "batch_norm_backward",
     "bucketize",
