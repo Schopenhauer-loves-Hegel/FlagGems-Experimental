@@ -59,6 +59,7 @@ from .index_put import _index_put_impl_, index_put, index_put_
 from .index_select import index_select
 from .kthvalue import kthvalue
 from .linalg_cholesky import linalg_cholesky
+from .linalg_ldl_factor_ex import ldl_factor_ex
 from .linear import linear
 from .log import log
 from .log10 import log10, log10_, log10_out
@@ -169,6 +170,7 @@ __all__ = [
     "_index_put_impl_",
     "index_select",
     "kthvalue",
+    "ldl_factor_ex",
     "linalg_cholesky",
     "linear",
     "log",
