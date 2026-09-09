@@ -69,6 +69,7 @@ from .min import min, min_dim
 from .mish import mish, mish_
 from .mode import mode
 from .mul import mul, mul_
+from .mvlgamma import mvlgamma
 from .nonzero_numpy import nonzero_numpy
 from .norm import norm, norm_scalar, norm_scalaropt_dim
 from .normal import normal_
@@ -176,6 +177,7 @@ __all__ = [
     "mode",
     "mul",
     "mul_",
+    "mvlgamma",
     "nonzero_numpy",
     "norm",
     "norm_scalar",
