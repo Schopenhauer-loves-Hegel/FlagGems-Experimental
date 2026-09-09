@@ -51,6 +51,7 @@ from .log_normal import log_normal
 from .log_normal_ import log_normal_
 from .matmul_bf16 import matmul_bf16
 from .matmul_int8 import matmul_int8
+from .max_pool3d_with_indices_backward import max_pool3d_with_indices_backward
 from .median import median
 from .mm import mm, mm_out
 from .mvlgamma import run as mvlgamma
@@ -131,6 +132,7 @@ __all__ = [
     "log_normal_",
     "matmul_bf16",
     "matmul_int8",
+    "max_pool3d_with_indices_backward",
     "median",
     "mm",
     "mm_out",
