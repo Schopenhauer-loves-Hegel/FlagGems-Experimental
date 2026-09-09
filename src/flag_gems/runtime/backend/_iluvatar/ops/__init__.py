@@ -40,6 +40,7 @@ from .histc import histc
 from .igamma_ import igamma_
 from .index_select_backward import index_select_backward
 from .kthvalue import kthvalue
+from .lift_out import lift_out
 from .linalg_cholesky import linalg_cholesky
 from .linalg_ldl_factor_ex import ldl_factor_ex
 from .linalg_matrix_norm import linalg_matrix_norm
@@ -132,6 +133,7 @@ __all__ = [
     "index_select_backward",
     "kthvalue",
     "ldl_factor_ex",
+    "lift_out",
     "linalg_cholesky",
     "linalg_matrix_norm",
     "linalg_qr",
