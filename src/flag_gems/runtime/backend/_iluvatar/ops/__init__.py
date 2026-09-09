@@ -32,6 +32,7 @@ from .div import div_mode, div_mode_
 from .gcd_ import gcd_
 from .hadamard_transform import hadamard_transform
 from .histc import histc
+from .igamma_ import igamma_
 from .index_select_backward import index_select_backward
 from .linalg_cholesky import linalg_cholesky
 from .linalg_ldl_factor_ex import ldl_factor_ex
@@ -101,6 +102,7 @@ __all__ = [
     "gcd_",
     "hadamard_transform",
     "histc",
+    "igamma_",
     "index_select_backward",
     "ldl_factor_ex",
     "linalg_cholesky",
