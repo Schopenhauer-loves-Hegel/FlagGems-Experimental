@@ -42,6 +42,7 @@ from .linalg_solve_triangular import (
     linalg_solve_triangular,
     linalg_solve_triangular_out,
 )
+from .linalg_svdvals import linalg_svdvals
 from .linear import linear
 from .log_normal import log_normal
 from .log_normal_ import log_normal_
@@ -112,6 +113,7 @@ __all__ = [
     "linalg_qr_out",
     "linalg_solve_triangular",
     "linalg_solve_triangular_out",
+    "linalg_svdvals",
     "linear",
     "log_normal",
     "log_normal_",
