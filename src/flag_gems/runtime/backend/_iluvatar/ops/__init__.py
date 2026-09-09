@@ -37,6 +37,7 @@ from .hadamard_transform import hadamard_transform
 from .histc import histc
 from .igamma_ import igamma_
 from .index_select_backward import index_select_backward
+from .kthvalue import kthvalue
 from .linalg_cholesky import linalg_cholesky
 from .linalg_ldl_factor_ex import ldl_factor_ex
 from .linalg_matrix_norm import linalg_matrix_norm
@@ -119,6 +120,7 @@ __all__ = [
     "histc",
     "igamma_",
     "index_select_backward",
+    "kthvalue",
     "ldl_factor_ex",
     "linalg_cholesky",
     "linalg_matrix_norm",
