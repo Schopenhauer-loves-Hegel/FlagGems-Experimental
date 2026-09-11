@@ -110,6 +110,7 @@ from .resolve_conj import resolve_conj
 from .round_ import round_
 from .softplus_backward import softplus_backward
 from .sort import sort, sort_stable
+from .special_bessel_j0 import special_bessel_j0
 from .special_bessel_j1 import special_bessel_j1
 from .special_bessel_y0 import special_bessel_y0
 from .special_erfcx import special_erfcx
@@ -241,6 +242,7 @@ __all__ = [
     "softplus_backward",
     "sort",
     "sort_stable",
+    "special_bessel_j0",
     "special_bessel_j1",
     "special_bessel_y0",
     "special_erfcx",
