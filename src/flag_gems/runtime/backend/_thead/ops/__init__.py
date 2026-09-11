@@ -34,6 +34,7 @@ from .linalg_svdvals import linalg_svdvals
 from .linear_backward import linear_backward
 from .log_normal_ import log_normal_, log_normal_heur_block, log_normal_heur_num_warps
 from .log_sigmoid_backward import log_sigmoid_backward, log_sigmoid_backward_out
+from .matmul_bias_activation import matmul_bias_activation
 from .max_pool3d_with_indices_backward import max_pool3d_with_indices_backward
 from .mvlgamma import mvlgamma
 from .nll_loss_backward import nll_loss_backward
@@ -93,6 +94,7 @@ __all__ = [
     "log_sigmoid_backward",
     "log_sigmoid_backward_out",
     "make_3d_for_bn",
+    "matmul_bias_activation",
     "max_pool3d_with_indices_backward",
     "mvlgamma",
     "nll_loss_backward",
