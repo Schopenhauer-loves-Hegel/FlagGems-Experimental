@@ -32,6 +32,7 @@ from .linalg_svdvals import linalg_svdvals
 from .linear_backward import linear_backward
 from .log_normal_ import log_normal_, log_normal_heur_block, log_normal_heur_num_warps
 from .log_sigmoid_backward import log_sigmoid_backward, log_sigmoid_backward_out
+from .max_pool3d_with_indices_backward import max_pool3d_with_indices_backward
 from .mvlgamma import mvlgamma
 from .nll_loss_backward import nll_loss_backward
 from .nonzero_numpy import nonzero_numpy
@@ -87,6 +88,7 @@ __all__ = [
     "log_sigmoid_backward",
     "log_sigmoid_backward_out",
     "make_3d_for_bn",
+    "max_pool3d_with_indices_backward",
     "mvlgamma",
     "nll_loss_backward",
     "nonzero_numpy",
