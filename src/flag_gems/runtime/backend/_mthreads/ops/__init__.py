@@ -61,6 +61,7 @@ from .index_put import _index_put_impl_, index_put, index_put_
 from .index_select import index_select
 from .kthvalue import kthvalue
 from .lcm_ import lcm_
+from .lift_fresh import lift_fresh
 from .lift_out import lift_out
 from .linalg_cholesky import linalg_cholesky
 from .linalg_ldl_factor_ex import ldl_factor_ex
@@ -127,6 +128,7 @@ from .zeros_like import zeros_like
 __all__ = [
     "_adaptive_avg_pool2d_backward",
     "_conj",
+    "_index_put_impl_",
     "_thnn_fused_lstm_cell_backward_impl",
     "_upsample_bilinear2d_aa",
     "_upsample_nearest_exact2d_backward",
@@ -175,11 +177,11 @@ __all__ = [
     "index_copy_",
     "index_put",
     "index_put_",
-    "_index_put_impl_",
     "index_select",
     "kthvalue",
     "lcm_",
     "ldl_factor_ex",
+    "lift_fresh",
     "lift_out",
     "linalg_cholesky",
     "linear",
